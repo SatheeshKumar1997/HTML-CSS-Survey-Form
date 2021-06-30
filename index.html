@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; width: 100%;">
+   <div class="margin">
+       <form>
+        <label for="name" class="imp" ><b>Name</b></label><br>
+        <input type="text" id="name" size="30" required>
+        <input type="text" size="30" ><br>
+        <label class="f_size">First</label>
+        <label id="Last" class="f_size">Last</label>
+        <br><br>
+        <label for="mail" class="imp"><b>Email</b></label><br>
+        <input type="mail" id="mail" size="66" required>
+        <br><br>
+        <label for="exp" class="imp"><b>Your Experience</b></label><br>
+        <div class="div">
+            <input type="radio" name="star" id="star1"><label for="star1"></label>
+            <input type="radio" name="star" id="star2"><label for="star2"></label>
+            <input type="radio" name="star" id="star3"><label for="star3"></label>
+            <input type="radio" name="star" id="star4"><label for="star4"></label>
+            <input type="radio" name="star" id="star5"><label for="star5"></label>
+        </div>
+        <br>
+        <br>
+        <label>Overall how would you rate you experience with us</label>
+        <br><br>
+        <table>
+            <tr>
+                <th class="imp">How satisfied are you with</th>
+            </tr>
+            <tr class="center">
+                <td></td>
+                <td>Very Unsatisfied</td><td></td>
+                <td>Unsatisfied</td><td></td>
+                <td>Neutral</td><td></td>
+                <td>Satisfied</td><td></td>
+                <td>Very Satisfied</td><td></td>
+            </tr>
+            <tr class="bg_color">
+                <td><label for="purchase">Purchase</label></td>
+                <td class="center"><input type="radio" id="purchase" name="PC"></td><td></td>
+                <td class="center"><input type="radio" id="purchase" name="PC"></td><td></td>
+                <td class="center"><input type="radio" id="purchase" name="PC"></td><td></td>
+                <td class="center"><input type="radio" id="purchase" name="PC"></td><td></td>
+                <td class="center"><input type="radio" id="purchase" name="PC"></td><td></td>
+            </tr>
+            <tr>
+                <td><label for="service">Service</label></td>
+                <td class="center"><input type="radio" id="service" name="SR"></td><td></td>
+                <td class="center"><input type="radio" id="service" name="SR"></td><td></td>
+                <td class="center"><input type="radio" id="service" name="SR"></td><td></td>
+                <td class="center"><input type="radio" id="service" name="SR"></td><td></td>
+                <td class="center"><input type="radio" id="service" name="SR"></td><td></td>
+            </tr>
+            <tr class="bg_color">
+                <td><label for="Overall">Company Overall</label></td>
+                <td class="center"><input type="radio" id="Overall" name="CO"></td><td></td>
+                <td class="center"><input type="radio" id="Overall" name="CO"></td><td></td>
+                <td class="center"><input type="radio" id="Overall" name="CO"></td><td></td>
+                <td class="center"><input type="radio" id="Overall" name="CO"></td><td></td>
+                <td class="center"><input type="radio" id="Overall" name="CO"></td><td></td>
+            </tr>
+            <tr><td></td></tr>
+            <tr>
+                <th class="imp" style="text-align: left;">How likely are you to</th>         
+            </tr>
+            <tr class="center">
+                <td></td>
+                <td>Very Unlikely</td><td></td>
+                <td>Unlikely</td><td></td>
+                <td>Neutral</td><td></td>
+                <td>Likely</td><td></td>
+                <td>Very Likely</td><td></td>
+            </tr>
+            <tr class="bg_color">
+                <td><label for="Buy">Buy from us again</label></td>
+                <td class="center"><input type="radio" id="Buy" name="Buy"></td><td></td>
+                <td class="center"><input type="radio" id="Buy" name="Buy"></td><td></td>
+                <td class="center"><input type="radio" id="Buy" name="Buy"></td><td></td>
+                <td class="center"><input type="radio" id="Buy" name="Buy"></td><td></td>
+                <td class="center"><input type="radio" id="Buy" name="Buy"></td><td></td>
+            </tr>
+            <tr>
+                <td><label for="">Recommend our <br>product to others</label></td>
+                <td class="center"><input type="radio" id="ref" name="ref"></td><td></td>
+                <td class="center"><input type="radio" id="ref" name="ref"></td><td></td>
+                <td class="center"><input type="radio" id="ref" name="ref"></td><td></td>
+                <td class="center"><input type="radio" id="ref" name="ref"></td><td></td>
+                <td class="center"><input type="radio" id="ref" name="ref"></td><td></td>
+            </tr>
+            <tr class="bg_color">
+                <td><label for="rec">Recommend our<br> company to others</label></td>
+                <td class="center"><input type="radio" id="rec" name="rec"></td><td></td>
+                <td class="center"><input type="radio" id="rec" name="rec"></td><td></td>
+                <td class="center"><input type="radio" id="rec" name="rec"></td><td></td>
+                <td class="center"><input type="radio" id="rec" name="rec"></td><td></td>
+                <td class="center"><input type="radio" id="rec" name="rec"></td><td></td>
+            </tr>
+        </table>
+        <br>
+            <label for="add"><b>Additional comments or suggestions</b></label><br>  
+            <textarea id="add" name="add" rows="5" cols="80"></textarea>
+            <br>
+            <button type="button" class="btn btn-outline-secondary">Submit</button>
+    </form>
+</div> 
+</body>
+</html>

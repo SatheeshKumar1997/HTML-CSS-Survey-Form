@@ -1,0 +1,41 @@
+.margin{
+    margin-left: 25%;
+}
+.imp:after{
+    content: '*';
+    color: red;
+}
+.f_size{
+    font-size: 13px;
+}
+.div{
+    position: absolute;
+    display: flex;
+}
+.div input{
+    display: none;
+}
+.div label{
+    display: block;
+    cursor: pointer;
+    width: 50px;    
+}
+.div label::before{
+    content: '\f005';
+    font-family: 'fontAwesome';
+    position: relative;
+    font-size: 40px;
+    color: rgb(249, 176, 4);
+}
+.center{
+    text-align: center;
+}
+#Last{
+    margin-left: 252px;
+}
+.bg_color{
+    background-color: rgb(50,50,50,0.3);
+}
+.Btn{
+    background-color: green;
+}
